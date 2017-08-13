@@ -1,7 +1,8 @@
 <template>
   <div>
     <place v-if="isShow" :show-place="showPlace" :path="path"></place>
-    <router-view :show-place="showPlace" v-if="isShowHome"></router-view>
+    <router-view :show-place="showPlace" v-if="isShowHome"
+                 :address="address" :getSale="getSale" :sale="sale"></router-view>
   </div>
 </template>
 
@@ -14,6 +15,8 @@
         isShow: false,
         isShowHome: true,
         path: '',
+        address: '',
+        sale:{}
       }
     },
     created(){
@@ -25,9 +28,15 @@
       }
     },
     methods: {
-      showPlace(){
+      showPlace(address){
         this.isShow = !this.isShow
         this.isShowHome = !this.isShowHome
+        this.address = address
+
+        console.log(sale)
+      },
+      getSale(sale){
+        this.sale = sale
       }
     },
     components: {

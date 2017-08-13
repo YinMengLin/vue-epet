@@ -55,9 +55,13 @@
       height 55px
       background-size auto 40px !important
       &.index-a
-        background url("./main_cattab_1_sel.png") no-repeat center
+        background url("./main_tab_1.png") no-repeat center
+        &.active
+          background url("./main_cattab_1_sel.png") no-repeat center
       &.type-a
         background url("./main_tab_2.png") no-repeat center
+        &.active
+          background url("./main_cattab_2_sel.png") no-repeat center
       &.cart-a
            background url("./main_tab_3.png") no-repeat center
       &.myepet-a

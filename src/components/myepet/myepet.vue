@@ -49,8 +49,17 @@
       },
       created(){
         setTimeout(()=>{
-          this.showHint = false;
-          this.showLogin = true;
+          let username = localStorage.getItem('username')
+          if(username){
+            this.$router.push({
+              path: `/user${username}`,
+              query:　{username:username}
+            })
+          }else{
+            this.showHint = false;
+            this.showLogin = true;
+          }
+
         },2000)
       },
       methods: {

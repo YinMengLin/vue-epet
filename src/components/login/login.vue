@@ -4,7 +4,7 @@
         <div class="head-top">
           <router-link to="/cat" class="back-page"></router-link>
           <div class="text">
-            <a href="javascript:;">注册</a>
+            <router-link to="/register">注册</router-link>
           </div>
         </div>
         <div class="mlogo">
@@ -29,11 +29,11 @@
             <form action="###" class="form1">
               <div class="username">
                 <span class="us"></span>
-                <input type="text" name="username" placeholder="手机号/邮箱/用户名">
+                <input type="text" name="username" placeholder="手机号/邮箱/用户名" v-model="username">
               </div>
               <div class="password">
                 <span class="pw"></span>
-                <input type="password" name="password" placeholder="输入密码">
+                <input type="password" name="password" placeholder="输入密码" v-model="password">
               </div>
             </form>
           </div>
@@ -55,7 +55,7 @@
             忘记密码？
           </a>
         </div>
-        <div class="login-btn">
+        <div class="login-btn" @click="login">
           <a href="javascript:;">登录</a>
         </div>
         <div class="other-login">
@@ -74,7 +74,35 @@
 </template>
 
 <script>
-    export default{}
+  import axios from 'axios'
+  export default{
+    data(){
+      return {
+        username: '',
+        password: ''
+      }
+    },
+    methods: {
+      login(){
+        let username = this.username.trim();
+        let password = this.password.trim();
+        let url = `http://newsapi.gugujiankong.com/Handler.ashx?action=login&username=${username}&password=${password}`
+        axios.get(url)
+          .then(response => {
+            if(response.data){
+              let username = response.data.NickUserName;
+              localStorage.setItem('username',username);
+              this.$router.push({
+                path: `/user:${username}`,
+                query: {username:username}
+              })
+            }else {
+                alert('密码或用户名错误')
+            }
+          })
+      }
+    }
+  }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">

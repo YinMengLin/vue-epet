@@ -7,6 +7,7 @@ import iview from 'iview'
 
 import app from './app.vue'
 import router from './router'
+import './mock/mockServer'
 
 import 'iview/dist/styles/iview.css'
 import './common/stylus/index.styl'
@@ -15,6 +16,7 @@ Vue.use(iview)
 Vue.use(VueScroller)
 Vue.component(Swipe.name, Swipe)
 Vue.component(SwipeItem.name, SwipeItem)
+
 
 /* eslint-disable no-new */
 new Vue({

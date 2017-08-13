@@ -6,6 +6,9 @@ import fish from '../components/fish/fish.vue'
 import category from '../components/category/category.vue'
 import shopcart from '../components/shopcart/shopcart.vue'
 import myepet from '../components/myepet/myepet.vue'
+import catsale from '../components/catsale/catsale.vue'
+import register from '../components/register/register.vue'
+import user from '../components/user/user.vue'
 
 Vue.use(Router)
 
@@ -44,6 +47,18 @@ export default new Router({
     {
       path: '/category/category/:type',
       redirect: '/category/:type'
+    },
+    {
+      path: '/catsale',
+      component: catsale
+    },
+    {
+      path: '/register',
+      component: register
+    },
+    {
+      path: '/user:userid',
+      component: user
     }
   ]
 })

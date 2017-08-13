@@ -1,6 +1,6 @@
 <template>
   <div class="place-wrap" ref="placeWarp">
-    <div class="place" >
+    <div class="place" ref="place">
       <div class="bar-top">
         <div class="head-top">
           <div>
@@ -45,8 +45,8 @@
             选择地址
           </div>
         </div>
-        <ul class="citis-list">
-          <li class="city" v-for="item in 25">北京</li>
+        <ul class="citis-list" @click="chageCity($event)">
+          <li class="city" v-for="item in addressArr">{{item}}</li>
         </ul>
       </div>
 
@@ -55,19 +55,33 @@
 </template>
 
 <script>
+  import axios from 'axios'
   import Bscroll from 'better-scroll'
   export default{
+    props: ['showPlace','path'],
     data(){
       return {
         isShowHead: false,
+        city:{},
+        addressArr:[],
+        isfirst: true
       }
     },
     created(){
-      this.$nextTick(()=>{
-        this._initScroll()
-      })
+      axios.get('/api/getsheng')
+        .then(response => {
+          this.city = response.data.data
+          let sheng = response.data.data
+          let shengArr = [];
+          for(let s in sheng){
+            shengArr.push(s)
+          }
+          this.addressArr = shengArr
+          this.$nextTick(()=>{
+            this._initScroll()
+          });
+        })
     },
-    props: ['showPlace','path'],
     methods: {
       hidPlace(){
         this.showPlace();
@@ -76,11 +90,16 @@
         this.isShowHead = !this.isShowHead
       },
       _initScroll(){
-        this.scroll = new Bscroll(this.$refs.placeWarp,{
-          click: true,
-          bounce: false,
-          probeType: 3
-        })
+        if(!this.scroll ){
+          this.scroll = new Bscroll(this.$refs.placeWarp,{
+            click: true,
+            bounce: false,
+            probeType: 3
+          })
+        }else {
+          this.scroll.refresh()
+
+        }
         this.scroll.on('scroll', (pos) => {
           if(pos.y < -10){
             this.$refs.pagetop.classList.add('floathearder')
@@ -88,6 +107,23 @@
             this.$refs.pagetop.classList.remove('floathearder')
           }
         })
+      },
+      chageCity(event){
+        if(!this.isfirst){
+          this.showPlace(event.target.innerHTML);
+          this.isfirst = true
+          return
+        }
+        if(this.isfirst){
+          let sheng = event.target.innerHTML
+          let shiArr = []
+          for(let shi in (this.city[sheng])){
+            shiArr.push(shi)
+          }
+          this.addressArr = shiArr
+          this.isfirst= false
+          this.$refs.place.style.transform = 'translate(0)'
+        }
       }
     },
 
