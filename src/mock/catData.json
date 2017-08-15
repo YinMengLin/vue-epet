@@ -1,0 +1,723 @@
+{
+  "cat": {
+    "home": {
+      "swipe": [
+        "https://img2.epetbar.com/nowater/2017-07/21/16/c0d1e757214e689262954a56b76b0740.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/11/19/90bde5e779f5375ef29e6b4c828bb04a.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/10/13/ecd0d0299054428e2d1cdee2d3535c7b.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/08/09/8a02414a1cd663dadc6e67c3ff9d6573.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/04/13/a87ef931a96884b958d859952d3e40ad.png@!water",
+        "https://img2.epetbar.com/nowater/2017-08/04/16/7666821c190eab2da6d85ce6d9bef445.png@!water"
+      ],
+      "banner": "https://img2.epetbar.com/nowater/2017-06/27/16/eb1e56f630feb46a72be67984956c247.gif",
+      "clsimage": [
+        "https://img1.epetbar.com/2017-08/03/09/27e9bbcf34c51c1077d4dd8b835d0a2f.png@!water",
+        "https://img1.epetbar.com/2017-08/03/09/7afb8e7f8be2b0dc2f91eec9a073cde8.png@!water",
+        "https://img1.epetbar.com/2017-08/03/09/e5aac3f233b17be1e7c245a598f812e0.png@!water",
+        "https://img1.epetbar.com/2017-08/03/09/75feae28f5876aaa615478b0b68992c3.png@!water",
+        "https://img1.epetbar.com/2017-08/03/09/9c429ba6358ee54f4c6bdd8e4aa6831f.png@!water"
+      ],
+      "everyday": [
+        {
+          "img": "https://img1.epetbar.com/2016-12/12/10/7c1f9c72702ba711945f4018aefa0627.png@!300w-b",
+          "price": "1.00",
+          "save": "省￥2.90"
+        },
+        {
+          "img": "https://img1.epetbar.com/2015-10/21/16/3ef8c0fdc62ffe6111b290a639901005.jpg@!300w-b",
+          "price": "1.00",
+          "save": "省￥5.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-08/17/16/4a3c5409f46282ea9de922f0c1af9d2c.jpg@!300w-b",
+          "price": "17.00",
+          "save": "省￥11.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2015-07/16/4133ed094793f16ae507f7818a280451.jpg@!300w-b",
+          "price": "9.90",
+          "save": "省￥6.10"
+        },
+        {
+          "img": "https://img1.epetbar.com/2015-04/22/0f14eb9d31d8294d7fae468b7bedf439.jpg@!300w-b",
+          "price": "45.00",
+          "save": "省￥33.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2015-05/15/dc097422b496baf5fb92cab9f96e3ff1.jpg@!300w-b",
+          "price": "21.00",
+          "save": "省￥14.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-12/12/10/b09f3155f4db1a8de9f39cddc428b438.png@!300w-b",
+          "price": "1.00",
+          "save": "省￥2.90"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-08/24/12/dc9f84dde4cc46628f9297408b86fe88.jpg@!300w-b",
+          "price": "17.00",
+          "save": "省￥11.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-12/12/10/4ea1862a322497485f109aa0d685f5c4.png@!300w-b",
+          "price": "1.00",
+          "save": "省￥2.90"
+        },
+        {
+          "img": "https://img1.epetbar.com/2015-04/22/0f14eb9d31d8294d7fae468b7bedf439.jpg@!300w-b",
+          "price": "45.00",
+          "save": "省￥33.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-07/22/14/6894f77f21997f7dc60bae3df085439d.jpg@!300w-b",
+          "price": "216.00",
+          "save": "省￥144.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-08/11/10/2e4075cc789ef6cd1428a8e13950c31d.jpg@!300w-b",
+          "price": "7.20",
+          "save": "省￥4.80"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-08/12/14/97a0aea1c1776eb3d9023106ffed6b8f.jpg@!300w-b",
+          "price": "5.88",
+          "save": "省￥3.92"
+        },
+        {
+          "img": "https://img1.epetbar.com/2016-08/12/14/fe1fd42a3ccc6bf4c6e1574df316f7b6.jpg@!300w-b",
+          "price": "5.88",
+          "save": "省￥3.92"
+        },
+        {
+          "img": "https://img1.epetbar.com/2015-07/02/f110c9a04acea092f8e56af4a549abb8.jpg@!300w-b",
+          "price": "75.00",
+          "save": "省￥75.00"
+        },
+        {
+          "img": "https://img1.epetbar.com/2015-07/02/f110c9a04acea092f8e56af4a549abb8.jpg@!300w-b",
+          "price": "29.50",
+          "save": "省￥8.30"
+        }
+      ],
+      "hotshow": {
+        "leftpic": "https://img2.epetbar.com/nowater/2017-07/10/18/0d983a7720686c0f2a752f741f61cc39.png@!water",
+        "righttoppic": "https://img2.epetbar.com/nowater/2017-07/10/17/b28d28780e77a619e106269cd63b6f2a.jpg@!water",
+        "rightrightbottom": "https://img2.epetbar.com/nowater/2017-03/16/12/8effccc6ec692af5980cbb231ea22583.jpg@!water"
+      },
+      "videos": {
+        "time": "01:13",
+        "img": "https://img1.epetbar.com/2017-08/01/10/b74020c78e97fd082f6ae2796dbea567.jpg@!water",
+        "description":"神奇饮水除口臭",
+        "topic": "#猫咪保健",
+        "watcher": 24086
+      },
+      "experience": [
+        "https://img2.epetbar.com/nowater/2017-08/04/14/56c9cacaaa8e59c9ba5147740b380db6.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/04/14/7e1bd2940fda09390163e2fe6f6b9d73.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/04/14/b5d0f4e080535d205693697f0cb18087.jpg@!water"
+      ],
+      "brandSelling": [
+        {
+          "title": "品牌特卖-伯纳天纯",
+          "pic": "https://img2.epetbar.com/nowater/2017-07/03/8/43d67aca2e763de4f1bb2bd5e469d1d7.jpg@!water",
+          "discount": ""
+        },
+        {
+          "title": "品牌特卖-医仕高",
+          "pic": "https://img2.epetbar.com/nowater/2017-06/21/12/d93a582ada125b43e81b30655fb69030.jpg@!water",
+          "discount": "全场6折起"
+        },
+        {
+          "title": "我的日期不完美",
+          "pic": "https://img2.epetbar.com/nowater/2017-07/19/19/8d4d184bcf01207d3f039b406a904651.jpg@!water",
+          "discount": "大牌临期1折起"
+        }
+      ],
+      "commonweal":[
+        {
+          "font":["13","2","32"],
+          "add":"718,113.94",
+          "fixpic":"https://img2.epetbar.com/nowater/2016-12/26/10/67b4b39cc28a9934fa58fa1b9d7e0e90.png",
+          "sponsor":[
+            {
+              "pic": "https://static.epetbar.com/static_wap/appmall/main/epet_brand_logo.png",
+              "helpmoney": "已捐助¥162970.90"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/2016-08/18/16/637879a33f1ea84ccdbfa2dc1b3de16e.jpg",
+              "helpmoney": "已捐助¥151175.56"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2015-10/17/12/d9e05c4a2d35c88ffee0dcec98fba6a4.jpg",
+              "helpmoney": "已捐助¥58144.95"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/2016-08/18/16/92371ab34de0ea12b67028d6625c5180.jpg",
+              "helpmoney": "已捐助¥53991.13"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/2016-08/18/16/c997f3ae79a7568cf7b6dde5c7b7f8b1.jpg",
+              "helpmoney": "已捐助¥48906.58"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/16/276527f25e9151ef48b0b8d2dba79d29.jpg",
+              "helpmoney": "已捐助¥43447.45"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/f72f0855fa02052f23c3d19b22f8242c.jpg",
+              "helpmoney": "已捐助¥35345.32"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/2016-08/19/10/fc04341d858e72a3937fd5484f4a32e8.jpg",
+              "helpmoney": "已捐助¥33955.27"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/554b6be0390fa8c1254322d8f4af10b5.jpg",
+              "helpmoney": "已捐助¥30736.47"
+            },{
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/554b6be0390fa8c1254322d8f4af10b5.jpg",
+              "helpmoney": "已捐助¥30736.47"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/2016-08/18/16/e3fc4e24073e3ac5b8980603463a8828.jpg",
+              "helpmoney": "已捐助¥28171.97"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2017-02/13/12/c62b86f4f88077ce1727887f53077fb5.jpg",
+              "helpmoney": "已捐助¥27463.81"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2012-12/19/173b650c034343e5244bc8fba89704c8.jpg",
+              "helpmoney": "已捐助¥17170.03"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2015-08/17/10/2a7c8efcc191a03430fe2af6df594d4a.jpg",
+              "helpmoney": "已捐助¥14134.59"
+            },
+            {
+              "pic": "https://img2.epetbar.com/nowater/brand_logo/2017-07/14/10/86414673b92fb227bbd0d006949814ab.jpg",
+              "helpmoney": "已捐助¥12500.00"
+            }
+          ]
+        }
+
+      ],
+      "appraise": {
+        "goodpresent": "好评率99.64%",
+        "evaluate": [
+          {
+            "petpic": "https://img1.epetbar.com/2017-03/29/14/d1cf520f66912ee6adcb29ffebe2efc8.jpg",
+            "begintime": "加入E宠2年0月",
+            "username": "红*****ω",
+            "variety": "中华田园猫",
+            "content": "包装完美，没有破漏的情况存在，虽说是跨境运输，但是物流的速度还是比想象中快，最主要的还是正品保证，买得放心吃的安心"
+          },
+          {
+            "petpic": "https://img1.epetbar.com/2017-02/03/12/2bfa814e0924d3c870a2b758c335b18d.jpg",
+            "begintime": "加入E宠2年6月",
+            "username": "自***人",
+            "variety": "萨摩耶",
+            "content": "物流挺给力，到货很快。包装也十分的棒，外面还有塑料薄膜包裹，非常好，一看就让人觉得质量绝对一级棒。客服真心不错，很耐心的给你讲解！就冲这个大大的好评，以后狗狗的东西直接来这里！ 再次祝e宠生意兴隆。"
+          },
+          {
+            "petpic": "https://img1.epetbar.com/2017-08/05/19/81155a744f658951a4ca4764382fa110.jpg",
+            "begintime": "加入E宠1年0月",
+            "username": "胡**婷",
+            "variety": "萨摩耶",
+            "content": "E宠的产品是一直很信任的，狗粮，零食保健品什么的都是在E宠买，买的放心，给狗子吃的也比较安心。物流超快的，一般第二天就能收到了，很快很及时，给E宠及工作人员点一百二十个赞"
+          },
+          {
+            "petpic": "https://img1.epetbar.com/2017-08/05/16/402fa3508aadeb884c8d050179a422be.jpg",
+            "begintime": "加入E宠8月",
+            "username": "霁**月",
+            "variety": "串串",
+            "content": "一直在e宠买狗子的口粮和零食，非常感谢e宠给我提供的便利。最感动的就是客服们，每次有不懂的问题去咨询都会得到满意的回答，不管多么简单的问题她们都从不厌烦。谢谢e宠！"
+          }
+        ]
+      }
+    },
+    "petfoods": {
+      "swipe": [
+        "https://img2.epetbar.com/nowater/2017-08/08/18/5efdcc9141ead917b42f4be253219ca8.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/09/09/0d2762adea2d73ba0a37945f6915834e.jpg@!water",
+        "https://img2.epetbar.com/nowater/2017-08/08/17/e1cbb61b8ae1d2c41c39a0b49bb5f2be.jpg@!water"
+      ],
+      "productimage": [
+        "https://img1.epetbar.com/2017-04/11/10/3d1bf8fa122cb7ae9b909dabe41680af.png@!water",
+        "https://img1.epetbar.com/2017-04/11/10/acf08d74caff5b8fe79a5f360ef9724e.png@!water",
+        "https://img1.epetbar.com/2017-04/11/10/18d591aca671bcd8aa13bc883d26ba3b.png@!water",
+        "https://img1.epetbar.com/2017-04/11/10/8f375311125682db20ace86575196977.png@!water"
+      ],
+      "commend": [
+        {
+          "title": "喜跃VS妙多乐",
+          "subhead": "1元换罐头",
+          "image": "https://img2.epetbar.com/nowater/2017-08/08/17/e1cbb61b8ae1d2c41c39a0b49bb5f2be.jpg@!water"
+        },
+        {
+          "title": "安娜玛特",
+          "subhead": "增强免疫,美毛粮",
+          "image": "https://img2.epetbar.com/nowater/2017-08/08/16/26a1146a3c18ec810ac12334fe3b1b1f.jpg@!water"
+        },
+        {
+          "title": "蓝氏 天然营养",
+          "subhead": "调理肠胃,呵护被毛",
+          "image": "https://img2.epetbar.com/nowater/2017-08/01/09/c45a12a89be62c75b0738f6a07d29b9e.jpg@!water"
+        }
+      ],
+      "proClassify": [
+        {
+          "name": "进口猫粮",
+          "id": 1,
+          "proList": [
+            {
+              "avatar": "https://img1.epetbar.com/2015-11/30/16/8582e47d3605f8de85deb744000618c4.jpg@!300w-b",
+              "name": "比瑞吉 基础呵护系列 全价幼猫怀孕及哺乳猫粮 2kg",
+              "price": 145.00,
+              "oldPrice": 36.25,
+              "watcher": "互动:1118(98%好评)",
+              "count": "3852"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2017-06/23/12/a9bd1f66fd3061db837fd28f830e6b33.jpg@!300w-b",
+              "name": "Orijen渴望 六种鲜鱼全猫粮 1.8kg",
+              "price": 320.00,
+              "oldPrice": 88.88,
+              "watcher": "互动:6285(97%好评)",
+              "count": "9151"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2017-04/20/14/2c1b63013c352339445e6913e3c46269.jpg@!300w-b",
+              "name": "新西兰原装进口 ZIWI Peak 风干牛肉配方全猫粮 400g ",
+              "price": 160.00,
+              "oldPrice": 200.00,
+              "watcher": "互动:445(95%好评)",
+              "count": "1702"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2016-08/03/10/6716112a179595212fe0e4732f1aa0d7.jpg@!300w-b",
+              "name": "【保质期至2017-12-8】黑鹰Black Hawk 全猫鸡肉&糙米经典配方粮 1.5kg",
+              "price": 135.00,
+              "oldPrice": 45.00,
+              "watcher": "互动:67(93%好评)",
+              "count": "116"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2014-10/27/919f0c8add6b4da02a97057a97a4e2ed.png@!300w-b",
+              "name": "美国极誉Best Breed 全猫粮 4磅(1.8kg)",
+              "price": 171.00,
+              "oldPrice": 47.23,
+              "watcher": "互动:224(88%好评)",
+              "count": "550"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2013-07/05/a4c3842b6bc2cdb81eab9dd2d1d98366.jpg@!300w-b",
+              "name": "爱肯拿Acana 六星无谷深海鱼配方全猫粮 1.8kg",
+              "price": 242.00,
+              "oldPrice": 66.66,
+              "watcher": "互动:1800(98%好评)",
+              "count": "4073"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-04/21/ddfff8898f1c19ad514a09e1b4d75e1e.jpg@!300w-b",
+              "name": "贵族Natures Gift 营养仔母猫幼猫粮 1kg ",
+              "price": 36.00,
+              "oldPrice": 18.00,
+              "watcher": "互动:1692(97%好评)",
+              "count": "6378"
+            }
+          ]
+        },
+        {
+          "name": "国产猫粮",
+          "id": 2,
+          "proList": [
+            {
+              "avatar": "https://img1.epetbar.com/2015-11/30/16/8582e47d3605f8de85deb744000618c4.jpg@!300w-b",
+              "name": "比瑞吉 基础呵护系列 全价幼猫怀孕及哺乳猫粮 2kg",
+              "price": 145.00,
+              "oldPrice": 36.25,
+              "watcher": "互动:1118(98%好评)",
+              "count": "3852"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-01/22/a450344dbc44742bebde195d2db428f3.jpg@!300w-b",
+              "name": "伯纳天纯 无谷怀孕/哺乳期幼猫专用粮 1.5kg  ",
+              "price": 128.00,
+              "oldPrice": 42.66,
+              "watcher": "互动:434(99%好评)",
+              "count": "1241"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2017-04/20/14/2c1b63013c352339445e6913e3c46269.jpg@!300w-b",
+              "name": "新西兰原装进口 ZIWI Peak 风干牛肉配方全猫粮 400g ",
+              "price": 160.00,
+              "oldPrice": 200.00,
+              "watcher": "互动:445(95%好评)",
+              "count": "1702"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2017-06/13/8/118ac176b7ca746845650c51f758cf77.jpg@!300w-b",
+              "name": "喜跃 幼猫拾趣全价猫粮（鸡肉+鱼肉+牛奶+菠菜味）1.2kg",
+              "price": 39.50,
+              "oldPrice": 16.45,
+              "watcher": "互动:314(97%好评)",
+              "count": "994"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-03/21/0caa6b75da6c09e4b6b76723dada1fec.jpg@!300w-b",
+              "name": "妙多乐 全营养高能量成猫粮  1.5kg",
+              "price": 53.00,
+              "oldPrice": 17.66,
+              "watcher": "互动:1503(98%好评)",
+              "count": "4046"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2016-04/15/10/149e13ed85c2a45406de3036dcc74159.jpg@!300w-b",
+              "name": "伟嘉 海洋鱼味成猫粮 1.3kg",
+              "price": 42.90,
+              "oldPrice": 16.50,
+              "watcher": "互动:313(98%好评)",
+              "count": "1522"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-07/19/f6d7de27c07f60ea31cfd0dccdc6a112.jpg@!300w-b",
+              "name": "蓝氏LegendSandy 天然鸡肉芝士成猫粮 9磅(4.08kg) ",
+              "price": 228.00,
+              "oldPrice": 27.94,
+              "watcher": "互动:248(97%好评)",
+              "count": "714"
+            }
+          ]
+        },
+        {
+          "name": "拆零试吃",
+          "id": 3,
+          "proList": [
+            {
+              "avatar": "https://img1.epetbar.com/2014-05/27/85ca965e55f2d6f844b87a899302f8c2.jpg@!300w-b",
+              "name": "皇家royal canin 幼猫/怀孕哺乳母猫粮 拆零500g",
+              "price": 23.50,
+              "oldPrice": 23.50,
+              "watcher": "互动:1910(98%好评)",
+              "count": "1.25w"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2014-06/10/53d107a41dec447f34c9ecdd77d07e07.jpg@!300w-b",
+              "name": "发育宝 天然繁育配方成猫粮 拆零500g",
+              "price": 20.00,
+              "oldPrice": 20.00,
+              "watcher": "互动:2737(98%好评)",
+              "count":"1.61w"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-05/26/c49c7ddd40e8df8214f1bf37b133fb4f.jpg@!300w-b",
+              "name": "贵族Natures Gift  高配置营养仔母幼猫粮 拆零500g",
+              "price": 14.00,
+              "oldPrice": 14.00,
+              "watcher": "互动:2313(95%好评)",
+              "count": "6063"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-07/15/e3828281073327e807645da0f98d7808.jpg@!300w-b",
+              "name": "比瑞吉 基础呵护系列 亮毛成猫粮 拆零500g ",
+              "price": 19.50,
+              "oldPrice": 19.50,
+              "watcher": "互动:432(96%好评)",
+              "count": "3846"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2016-04/12/18/d107233c561b02f2f19ee29b839829fb.jpg@!300w-b",
+              "name": "妙多乐 全营养高能量成猫粮  拆零500g ",
+              "price": 13.00,
+              "oldPrice": 13.00,
+              "watcher": "互动:1162(98%好评)",
+              "count": "5446"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-03/31/7c0e1546bb23e7042f1facd927c6309f.jpg@!300w-b",
+              "name": "发育宝 天然繁育配方幼母猫粮 拆零500g",
+              "price": 24.00,
+              "oldPrice": 24.00,
+              "watcher": "互动:3543(98%好评)",
+              "count": "2.15w"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-07/23/910a1abbb568ddc84b012acb52c8ae03.jpg@!300w-b",
+              "name": " 欧帝亿 鸡肉天然 成猫猫粮 拆零500g",
+              "price": 28.00,
+              "oldPrice": 28.00,
+              "watcher": "互动:395(98%好评)",
+              "count": 2486
+            }
+          ]
+        },
+        {
+          "name": "处方猫粮",
+          "id": 4,
+          "proList": [
+            {
+              "avatar": "https://img1.epetbar.com/2015-08/26/18/f76880fe74b3b269c9a8d117cdc2b30d.jpg@!300w-b",
+              "name": "皇家royal canin H33功能型 美毛成猫粮 2kg",
+              "price": 147.00,
+              "oldPrice": 36.75,
+              "watcher": "互动:118(99%好评)",
+              "count": "819"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-10/21/16/1679370509040dc9e02f7408e5e76f4b.jpg@!300w-b",
+              "name": "朗跃 泌尿疾患膳食100g ",
+              "price": 8.00,
+              "oldPrice": 40.00,
+              "watcher": "互动:59(98%好评)",
+              "count":"419"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2015-01/27/c9d8f5d089e097e500e5c4afc5d7bd63.jpg@!300w-b",
+              "name": "泰国进口渔极 高营养系列 高龄猫AD罐 70g",
+              "price": 11.00,
+              "oldPrice": 78.57,
+              "watcher": "互动:78(100%好评)",
+              "count": "887"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2016-08/19/18/34dbcf6688a5c5a1f142c82f0088c288.jpg@!300w-b",
+              "name": "美国原装进口希尔斯Hills 处方猫粮系列  m/d减重配方猫罐头 156g",
+              "price": 37.00,
+              "oldPrice": 115.62,
+              "watcher": "互动:18(100%好评)",
+              "count": "177"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2016-04/14/10/efa335877debf51805a1ed69a7f06c9e.jpg@!300w-b",
+              "name": "美国原装进口希尔斯Hills 处方猫粮系列 t/d健康牙齿配方全猫粮 4磅(1.81kg)",
+              "price": 251.00,
+              "oldPrice": 83.66,
+              "watcher": "互动:20(90%好评)",
+              "count": "48"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2017-02/13/14/c04872e449d4d12da7c389ade1c74f44.jpg@!300w-b",
+              "name": "皇家royal canin 功能型减肥成猫粮2kg ",
+              "price": 143.00,
+              "oldPrice": 35.75,
+              "watcher": "互动:82(99%好评)",
+              "count": "506"
+            },
+            {
+              "avatar": "https://img1.epetbar.com/2016-04/13/16/5bd667fa797a1e050fad9b19b01f5504.jpg@!300w-b",
+              "name": " 克劳德医生 猫咪低敏处方粮 400g",
+              "price": 59.00,
+              "oldPrice": 73.75,
+              "watcher": "互动:31(92%好评)",
+              "count": "235"
+            }
+          ]
+        }
+      ]
+    },
+    "sale": {
+      "banner": {
+        "image":"//static.epetbar.com/static_wap/epetapp/pages/brand_sale/images/banner.jpg"
+      },
+      "salenav": [
+        {
+          "name": "最新上架",
+          "engname": "New arrival",
+          "id": 1,
+          "brands": [
+            "//img1.epetbar.com/2017-08/01/09/6393b6181a096b9c1d81d15294cb8b66.jpg@!water",
+            "//img1.epetbar.com/2017-07/07/12/58aba5b320778c23408ed199f8ec93e4.jpg@!water",
+            "//img1.epetbar.com/2017-07/05/10/2543d05203cd8cff04ded1c3f74427c1.jpg@!water",
+            "//img1.epetbar.com/2017-07/05/10/eb3a56656dfb0fd37b08e14502d1538a.jpg@!water",
+            "//img1.epetbar.com/2017-07/05/10/c41140b4ae447185f821655520fae2e8.jpg@!water"
+          ]
+        },
+        {
+          "name": "最热活动",
+          "engname": "The hottest",
+          "id": 2,
+          "brands": [
+            "//img1.epetbar.com/2017-07/05/10/2543d05203cd8cff04ded1c3f74427c1.jpg@!water",
+            "//img1.epetbar.com/2017-07/05/10/eb3a56656dfb0fd37b08e14502d1538a.jpg@!water",
+            "//img1.epetbar.com/2017-08/01/09/6393b6181a096b9c1d81d15294cb8b66.jpg@!water",
+            "//img1.epetbar.com/2017-07/05/10/c41140b4ae447185f821655520fae2e8.jpg@!water",
+            "//img1.epetbar.com/2017-07/07/12/58aba5b320778c23408ed199f8ec93e4.jpg@!water"
+          ]
+        },
+        {
+          "name": "主粮",
+          "engname": "Cat Food",
+          "id": 3,
+          "brands": [
+            "//img1.epetbar.com/2017-08/01/09/6393b6181a096b9c1d81d15294cb8b66.jpg@!water",
+            "//img1.epetbar.com/2017-07/05/10/2543d05203cd8cff04ded1c3f74427c1.jpg@!water"
+          ]
+        },
+        {
+          "name": "零食",
+          "engname": "Cat Snacks",
+          "id": 4,
+          "brands": [
+            "//img1.epetbar.com/2017-07/05/10/eb3a56656dfb0fd37b08e14502d1538a.jpg@!water",
+            "//img1.epetbar.com/2017-07/05/10/c41140b4ae447185f821655520fae2e8.jpg@!water"
+          ]
+        },
+        {
+          "name": "医疗&保健",
+          "engname": "Health Protection",
+          "id": 5,
+          "brands": [
+            "//img1.epetbar.com/2017-07/07/12/58aba5b320778c23408ed199f8ec93e4.jpg@!water"
+          ]
+        }
+      ]
+    },
+    "supermarkt": {
+
+    },
+    "video": [
+      {
+        "watcher": 14924,
+        "duration": "01:53",
+        "image": "https://img1.epetbar.com/2017-07/12/14/2bdc6bfcf415a337db6abb063c8a655e.jpg@!water",
+        "description": "大保健来一套",
+        "topic": "#猫咪美容"
+      },
+      {
+        "watcher": 50418,
+        "duration": "02:27",
+        "image": "https://img1.epetbar.com/2017-07/11/09/4b5f42a6a66c53e275a2c0f5bac9e550.jpg@!water",
+        "description": "“滚”起来铲屎",
+        "topic": "#猫咪美容"
+      },
+      {
+        "watcher": 8183,
+        "duration": "02:27",
+        "image": "https://img1.epetbar.com/2017-07/10/18/f3996bf6f14954febd230064498e5ea5.jpg@!water",
+        "description": "对付孤独寂寞胖",
+        "topic": "#猫咪玩具"
+      },
+      {
+        "watcher": 28480,
+        "duration": "02:34",
+        "image": "https://img1.epetbar.com/2017-07/13/17/ef8d8703f66c313b43725b529f9b18a2.jpg@!water",
+        "description": "甩掉男朋友，自己搬猫砂",
+        "topic": "#猫咪日用"
+      },
+      {
+        "watcher": 3481,
+        "duration": "01:13",
+        "image": "https://img1.epetbar.com/2017-07/10/18/254ec44b68a9b80ec636742d79ff2f6e.jpg@!water",
+        "description": "神奇饮水除口臭",
+        "topic": "#猫咪保健"
+      },
+      {
+        "watcher": 6472,
+        "duration": "01:13",
+        "image": "https://img1.epetbar.com/2017-07/13/15/902dd37164b7cf55b6b12341e630374e.jpg@!water",
+        "description": "吃饭轻松颈椎不累",
+        "topic": "#猫咪日用"
+      },
+      {
+        "watcher": 4601,
+        "duration": "02:10",
+        "image": "https://img1.epetbar.com/2017-07/10/18/8d1de652fffdc0cdf3ccaf610b32c750.jpg@!water",
+        "description": "吃饭还得看颜值",
+        "topic": "#猫咪日用"
+      },
+      {
+        "watcher": 24051,
+        "duration": "03:10",
+        "image": "https://img1.epetbar.com/2017-07/03/14/d30e48aa9babb795b5b7da1ad781c85e.jpg@!water",
+        "description": "铲屎官彻底失宠",
+        "topic": "#猫咪日用"
+      },
+      {
+        "watcher": 4182,
+        "duration": "01:53",
+        "image": "https://img1.epetbar.com/2017-07/10/18/946eea69f6dc590f42a59ab9c1ad4d2c.jpg@!water",
+        "description": "get梳毛新技能",
+        "topic": "#狗狗美容"
+      },
+      {
+        "watcher": 5708,
+        "duration": "02:05",
+        "image": "https://img1.epetbar.com/2017-07/10/18/6ba174d8c09e0b4e2e42f29339a00a35.jpg@!water",
+        "description": "像没穿一样舒适",
+        "topic": "#狗狗牵引"
+      },
+      {
+        "watcher": 4699,
+        "duration": "02:15",
+        "image": "https://img1.epetbar.com/2017-07/10/18/c9c1ad4358d2129c63b0f7ebffe31578.jpg@!water",
+        "description": "吃肉要讲究",
+        "topic": "#狗狗零食"
+      },
+      {
+        "watcher": 5943,
+        "duration": "02:10",
+        "image": "https://img1.epetbar.com/2017-07/10/18/0aa497ec8d09ea63a4c673477eaab801.jpg@!water",
+        "description": "大象踩不烂的碗",
+        "topic": "#狗狗日用"
+      },
+      {
+        "watcher": 2225,
+        "duration": "03:07",
+        "image": "https://img1.epetbar.com/2017-07/10/18/a0d48beefa1de752fae0b7a46831b3c7.jpg@!water",
+        "description": "狗掉毛厉害，喷一喷",
+        "topic": "#狗狗香波"
+      },
+      {
+        "watcher": 5736,
+        "duration": "02:53",
+        "image": "https://img1.epetbar.com/2017-07/21/16/adf7469d9d792108ea7f6856d1ddd1fe.jpg@!water",
+        "description": "天王要喝水，宝塔镇喝妖",
+        "topic": "#狗狗日用"
+      },
+      {
+        "watcher": 10361,
+        "duration": "02:43",
+        "image": "https://img1.epetbar.com/2017-07/11/17/9adbaa423fe25fb769218b97d3714c58.jpg@!water",
+        "description": "狗碗也会踩高跷",
+        "topic": "#狗狗日用"
+      },
+      {
+        "watcher": 58351,
+        "duration": "02:13",
+        "image": "https://img1.epetbar.com/2017-07/11/17/4a80987448d3c910ae46a1b6138e6f48.jpg@!water",
+        "description": "不向恶势力低头",
+        "topic": "#狗狗日用"
+      },
+      {
+        "watcher": 9242,
+        "duration": "03:00",
+        "image": "https://img1.epetbar.com/2017-07/10/18/807a2285a9e1989f7433a9dac7642984.jpg@!water",
+        "description": "水怪，哪里跑？",
+        "topic": "#狗狗日用"
+      },
+      {
+        "watcher": 14722,
+        "duration": "01:36",
+        "image": "https://img1.epetbar.com/2017-07/10/18/0fe2f46781badd486be7d0633192dcdb.jpg@!water",
+        "description": "只有我最摇摆",
+        "topic": "#狗狗玩具"
+      }
+    ],
+    "classrooms": {
+
+    },
+    "classify": {
+
+    },
+    "shopcart": {
+
+    }
+  },
+  "dog": {
+
+  },
+  "fish": {
+
+  }
+}
