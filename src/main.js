@@ -1,8 +1,10 @@
 // The Vue build version to load with the `import` command
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
-import {Swipe, SwipeItem} from 'mint-ui'
+import VueScroller from 'vue-scroller'
+import {Swipe, SwipeItem, InfiniteScroll } from 'mint-ui'
 import iview from 'iview'
+
 import app from './app.vue'
 import router from './router'
 
@@ -10,8 +12,10 @@ import 'iview/dist/styles/iview.css'
 import './common/stylus/index.styl'
 
 Vue.use(iview)
+Vue.use(VueScroller)
 Vue.component(Swipe.name, Swipe)
 Vue.component(SwipeItem.name, SwipeItem)
+Vue.use(InfiniteScroll);
 
 /* eslint-disable no-new */
 new Vue({
