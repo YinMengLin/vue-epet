@@ -40,6 +40,10 @@ export default new Router({
     {
       path: '/myepet',
       component: myepet
+    },
+    {
+      path: '/category/category/:type',
+      redirect: '/category/:type'
     }
   ]
 })

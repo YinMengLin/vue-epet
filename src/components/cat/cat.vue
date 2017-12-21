@@ -379,7 +379,7 @@
     data(){
       return {
         typeName: '猫站',
-        bgColor: '#e73f85'
+        path: '/cat'
       }
     },
     created(){
