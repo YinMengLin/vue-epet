@@ -1,7 +1,58 @@
 <template>
   <div>
+<!--
+    <epet-header :show-place="showPlace" :typeName="this.typeName" :bgColor="bgColor"></epet-header>
+-->
+    <div class="header">
+      <div class="app-down">
+      <span class="close-btn">
+        <img src="./closebtn_03.png">
+      </span>
+        <div class="app-img">
+          <a href="javascript:;">
+            <img src="./down-app.png" alt="down-app">
+          </a>
+        </div>
+      </div>
+      <div class="search clearfix">
+        <div class="location" @click="clickShowPlace">
+          <span>{{this.typeName}}|北京</span>
+          <Icon type="arrow-up-b"></Icon>
+        </div>
+        <div class="search-input">
+          <a href="javascript:;">
+            <i-input placeholder="搜索商品和品牌" icon="search"></i-input>
+          </a>
+        </div>
+        <a href="javascript:;" class="mydope">
+          <img src="./mydope.png" alt="">
+        </a>
+      </div>
+      <div class="tabs-cat" ref="tabsWrap">
+        <Menu mode="horizontal"  active-name="c1">
+          <Menu-item name="c1">
+            首页
+          </Menu-item>
+          <Menu-item name="c2">
+            猫粮
+          </Menu-item>
+          <Menu-item name="c3">
+            特卖
+          </Menu-item>
+          <Menu-item name="c4">
+            罐头超市
+          </Menu-item>
+          <Menu-item name="c5">
+            潮品视频
+          </Menu-item>
+          <Menu-item name="c6">
+            新瞄课堂
+          </Menu-item>
+        </Menu>
+      </div>
+    </div>
     <scroller>
-      <div class="cat-content" ref="cat-content">
+      <div class="cat-content" ref="catContent">
         <div class="swipe">
           <mt-swipe :auto="4000">
             <mt-swipe-item>
@@ -314,13 +365,23 @@
         <split></split>
       </div>
     </scroller>
+    <epet-footer></epet-footer>
   </div>
 </template>
 
 <script>
   import Bscroll from 'better-scroll'
   import split from '../split/split.vue'
+  //import header from '../header/header.vue'
+  import footer from '../footer/footer.vue'
   export default{
+    props:['showPlace'],
+    data(){
+      return {
+        typeName: '猫站',
+        bgColor: '#e73f85'
+      }
+    },
     created(){
       this._creatProList();
     },
@@ -335,16 +396,95 @@
             scrollX: true
           })
         })
+      },
+      clickShowPlace(){
+        this.showPlace()
       }
     },
     components: {
-      split
+      split,
+      //'epet-header': header,
+      'epet-footer': footer
     }
   }
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
   @import "../../common/stylus/mixin.styl"
+.header
+  width 100%
+  position fixed
+  top 0
+  z-index 100
+  background-color #fff
+  .app-down
+    position relative
+    background rgba(61,61,61,1)
+    height 55px
+    .close-btn
+      position absolute
+      left 2%
+      top 20%
+      width 5%
+      margin-right 2%
+      vertical-align middle
+      img
+        width 100%
+        height  100%
+    .app-img
+      width 100%
+      height 100%
+      img
+        width 100%
+        height 55px
+  .search
+    padding 13px 10px
+    display flex
+    text-align center
+    align-items center
+    .location
+      margin-right 20px
+      color  #333
+      font-size 14px
+      font-family 'Microsoft Yahei',-apple-system-font,Helvetica Neue,sans-serif;
+    .search-input
+      height 27px
+      flex 2
+      input
+        height 27px
+        background-color #f6f6f6
+        border none
+        border-radius 4px
+        text-indent 10px
+      input[type="text"]::-webkit-input-placeholder
+        color #5a5a5a
+      .ivu-input-icon
+        height 27px
+        color #c4c4c4
+    .mydope
+      width 35px
+      height 27px
+      padding 2px 0 0 10px
+      img
+        width 25px
+        height 25px
+  .tabs-cat
+    width 150%
+    height 35px
+    min-width 320px
+    .ivu-menu
+      height 35px
+      white-space nowrap
+      .ivu-menu-item
+        height 35px
+        line-height 35px
+        width 74.5px
+        text-align center
+        padding 0 10px
+        &.ivu-menu-item-active
+          border-bottom 2px solid #e73f85
+        &.ivu-menu-item-selected
+          color #e73f85
 .cat-content
   padding-top 144px
   padding-bottom 65px

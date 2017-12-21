@@ -11,8 +11,8 @@
       </div>
     </div>
     <div class="search clearfix">
-      <div class="location">
-        <span>猫站|北京</span>
+      <div class="location" @click="clickShowPlace">
+        <span>{{this.typeName}}|北京</span>
         <Icon type="arrow-up-b"></Icon>
       </div>
       <div class="search-input">
@@ -24,22 +24,35 @@
         <img src="./mydope.png" alt="">
       </a>
     </div>
-    <div class="tabs" ref="tabs-wrap">
-      <Tabs :animated="false" ref="tabs">
-        <Tab-pane label="首页"></Tab-pane>
-        <Tab-pane label="猫粮"></Tab-pane>
-        <Tab-pane label="特卖"></Tab-pane>
-        <Tab-pane label="罐头超市"></Tab-pane>
-        <Tab-pane label="潮品视频"></Tab-pane>
-        <Tab-pane label="新瞄课堂"></Tab-pane>
-      </Tabs>
+    <div class="tabs" ref="tabsWrap">
+      <Menu>
+        <Menu-item name="1" ></Menu-item>
+        <Menu-item name="2"></Menu-item>
+        <Menu-item name="3"></Menu-item>
+        <Menu-item name="4"></Menu-item>
+        <Menu-item name="5"></Menu-item>
+        <Menu-item name="6"></Menu-item>
+      </Menu >
     </div>
   </div>
 </template>
 
 <script>
   export default{
-
+    props: ['showPlace','typeName','bgColor'],
+    created(){
+      this.$nextTick(()=>{
+        let linkbar = this.$refs.tabsWrap.getElementsByClassName('ivu-tabs-ink-bar')
+        for (let i = 0; i < linkbar.length; i++) {
+          linkbar[i].style.backgroundColor = this.bgColor
+        }
+      })
+    },
+    methods: {
+      clickShowPlace(){
+        this.showPlace()
+      }
+    }
   }
 </script>
 

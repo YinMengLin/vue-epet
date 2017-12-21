@@ -3,6 +3,9 @@ import Router from 'vue-router'
 import cat from '../components/cat/cat.vue'
 import dog from '../components/dog/dog.vue'
 import fish from '../components/fish/fish.vue'
+import category from '../components/category/category.vue'
+import shopcart from '../components/shopcart/shopcart.vue'
+import myepet from '../components/myepet/myepet.vue'
 
 Vue.use(Router)
 
@@ -16,7 +19,7 @@ export default new Router({
     },
     {
       path: '/cat',
-      component: cat
+      component: cat,
     },
     {
       path: '/dog',
@@ -25,7 +28,18 @@ export default new Router({
     {
       path: '/fish',
       component: fish
+    },
+    {
+      path: '/category/:type',
+      component: category
+    },
+    {
+      path: '/shopcart',
+      component: shopcart
+    },
+    {
+      path: '/myepet',
+      component: myepet
     }
-
   ]
 })
