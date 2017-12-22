@@ -362,6 +362,9 @@
         <split></split>
       </div>
     </scroller>
+    <div class="go-dog">
+
+    </div>
     <epet-footer></epet-footer>
   </div>
 </template>
@@ -849,4 +852,15 @@
                   height 60px
                   overflow hidden
 
+  .go-dog
+    background url(./godog.png) no-repeat
+    width 49px
+    height 61px
+    background-size 97px auto
+    position fixed
+    bottom 15%
+    right 0
+    z-index 1
+    -webkit-animation nnh 2.5s steps(2) infinite
+    animation nnh 2.5s steps(2) infinite
 </style>

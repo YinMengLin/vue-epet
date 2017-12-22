@@ -365,6 +365,38 @@
         <split></split>
       </div>
     </scroller>
+    <div class="go-cat-wrap">
+      <div class="go-cat" @click="toggleGoCat"></div>
+      <div class="changepop" v-show="showGo">
+        <div class="cartc-box">
+          <p class="title">
+            <span>CAT</span>
+            <span class="line">▁</span>
+          </p>
+          <p class="named">亲爱的小主</p>
+          <p class="location">您当前在猫猫站</p>
+          <ul class="clearfix change-ul">
+            <li class="dog">
+              <img src="./change-dog.png" alt="">
+              <div>狗狗站</div>
+            </li>
+            <li class="cat">
+              <img src="./change-cat1.png" alt="">
+              <div>猫猫站</div>
+              <span>▁</span>
+              <a href="javasrcipt:;">立即进入</a>
+            </li>
+            <li class="fish">
+              <img src="./change-fish.png" alt="">
+              <div>水族站</div>
+            </li>
+          </ul>
+        </div>
+        <div class="close">
+          <img src="./close2.png" @click="toggleGoCat">
+        </div>
+      </div>
+    </div>
     <epet-footer></epet-footer>
   </div>
 </template>
@@ -379,7 +411,8 @@
     data(){
       return {
         typeName: '猫站',
-        path: '/cat'
+        path: '/cat',
+        showGo: false
       }
     },
     created(){
@@ -399,6 +432,9 @@
       },
       clickShowPlace(){
         this.showPlace()
+      },
+      toggleGoCat(){
+        this.showGo = !this.showGo
       }
     },
     components: {
@@ -851,4 +887,123 @@
                 height 60px
                 overflow hidden
 
+.go-cat-wrap
+  .go-cat
+    background url(./gocat.png) no-repeat
+    width 49px
+    height 61px
+    background-size 97px auto
+    position fixed
+    bottom 15%
+    right 0
+    z-index 1
+    -webkit-animation nnh 2.5s steps(2) infinite
+    animation nnh 2.5s steps(2) infinite
+  .changepop
+    position absolute
+    top 0
+    bottom 0
+    left 0
+    right 0
+    background #fff
+    min-width 320px
+    z-index 999
+    .cartc-box
+      border-radius 5px
+      width 100%
+      position fixed
+      top 96.5px
+      left 0px
+      .title
+        position relative
+        text-align center
+        font-size 16px
+        color #999
+        .line
+          width 100%
+          position absolute
+          bottom -4px
+          left 0px
+          text-align center
+          color #000
+
+      .named
+        color #666
+        font-size 20px
+        margin-top 20px
+        text-align center
+      .location
+        color #666
+        font-size 20px
+        text-align center
+      .change-ul
+        margin-top 35px
+        min-width 305px
+        padding-left 10%
+        .dog
+          float left
+          width 25%
+          text-align center
+          margin-top 25%
+          img
+            max-width 80%
+          div
+            margin-top 20px
+            text-align center
+            font-size 16px
+            color #666
+        .cat
+          color #e74186
+          width 40%
+          margin-top 14%
+          text-align center
+          float left
+          position relative
+          img
+            max-width 80%
+          div
+            margin-top 20px
+            font-size 16px
+          span
+            width: 100%;
+            position: absolute;
+            top: -58px;
+            left: 0px;
+            text-align: center;
+            font-size 14px
+            color #000
+          a
+            font-size 14px
+            text-align center
+            display inline-block
+            background #e74186
+            border-radius 30px
+            padding 3px 15px
+            margin-top 25px
+            color #fff
+        .fish
+          float left
+          width 25%
+          text-align center
+          margin-top 25%
+          img
+            max-width 80%
+          div
+            margin-top 20px
+            text-align center
+            font-size 16px
+            color #666
+    .close
+      width 100%
+      height 40px
+      line-height 50px
+      position fixed
+      bottom 20px
+      left 0
+      display block
+      border-top 1px solid #e7e7e7
+      z-index 103
+      text-align center
+      img
+        width 23px
 </style>

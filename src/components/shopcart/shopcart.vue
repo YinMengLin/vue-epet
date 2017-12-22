@@ -74,7 +74,6 @@ body
   line-height 20px
   min-width 320px
   .shopcart-wrap
-    background-color
     .shopcart-bar
       .header
         color #333
@@ -156,7 +155,6 @@ body
             height 100px
             background url(./cart-ico.png) no-repeat 0 -160px
             background-size 105px auto
-
         .emptycart-text
           color #dbdbdb
           font-size 1.4em
